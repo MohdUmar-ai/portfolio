@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Umar's Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      animation: fadeIn 1s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    header {
+      background: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      animation: slideDown 1s ease-out;
+    }
+    @keyframes slideDown {
+      from { transform: translateY(-100px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    section {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 1s ease-in;
+    }
+    h2 {
+      color: #333;
+      position: relative;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 10px 0;
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mohd Umar</h1>
+    <p>Incoming B.Tech Student | Python Developer | Automation Enthusiast </p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I'm an incoming B.Tech student passionate about Python and automation. I love building small tools and scripts to make everyday tasks easier. Currently exploring Python projects like file organizers, scraping tools, and APIs to build my skills and prepare for freelancing.
+    </p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>Python</li>
+      <li>Automation</li>
+      <li>Web Scraping</li>
+      <li>APIs</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <ul>
+      <li><a href="#">File Organizer Script (Python)</a> – Organizes messy folders automatically</li>
+      <li><a href="#">YouTube Downloader CLI</a> – Download YouTube videos using a simple command line tool</li>
+      <li><a href="#">Job Scraper</a> – Collects job listings from websites using BeautifulSoup</li>
+      <h3><p class="project-message">🚧 Projects section will upload soon!</p></h3>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email: <a href="mohdumar7124@gmail.com">mohdumar7124@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/MohdUmar-ai" target="_blank">github.com/MohdUmar-ai</a></p>
+
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mohd Umar</p>
+  </footer>
+</body>
+</html>
